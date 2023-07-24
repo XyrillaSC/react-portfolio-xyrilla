@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background: #f9b713;
+    height: 200px;
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 75px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.frame-holder {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.frame {
+    width: 35%;
+    height: 100px;
+    background-color: #f9b713;
+    margin: 25px;
+}
