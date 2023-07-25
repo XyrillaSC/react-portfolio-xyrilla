@@ -1,18 +1,50 @@
+:root {
+    --main-bg-color: rgb(250, 224, 228);
+}
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
 }
-
-.header {
-    background: #f9b713;
+body {
+    background-color: var(--main-bg-color);
+}
+header {
+    background-color: rgb(255, 205, 213);
     height: 200px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px solid rgb(255, 185, 185);
 }
-
-.header h1 {
-    margin: 0;
-    padding-top: 75px;
+footer {
+    background-color: rgb(255, 205, 213);
+    height: fit-content;
+    display: flex;
+    gap: 30px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 10px solid rgb(255, 185, 185);
+}
+.name-plate {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 50px;
+    background-color:rgb(250, 224, 228);
+    border: 10px solid rgb(255, 185, 185);
     text-align: center;
-    color: white;
-    font-size: 3rem;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(202, 207, 133);
+    border-right: 10px solid rgb(140, 186, 128);
+    border-left: 10px solid rgb(140, 186, 128);
 }
 
 .port-box-holder {
@@ -24,7 +56,14 @@
 .port-box {
     width: 35%;
     min-width: 300px;
-    height: 300px;
-    background-color: #f9b713;
     margin: 50px 50px 50px 50px;
+    background-color: rgb(202, 207, 133);
+    border: 10px solid rgb(140, 186, 128);
+    padding: 10px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
