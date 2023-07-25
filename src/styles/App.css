@@ -15,15 +15,16 @@
     font-size: 3rem;
 }
 
-.frame-holder {
+.port-box-holder {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-.frame {
+.port-box {
     width: 35%;
-    height: 100px;
+    min-width: 300px;
+    height: 300px;
     background-color: #f9b713;
-    margin: 25px;
+    margin: 50px 50px 50px 50px;
 }

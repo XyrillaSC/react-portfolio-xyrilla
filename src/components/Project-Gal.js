@@ -3,26 +3,55 @@ import data from '../data.js'
 const { projects, pages } = data;
 function Gallery() {
   return (
-    <div className="frame-holder">
-      <div className='frame'>
-        <p>1</p>
-      </div>
-      <div className='frame'>
-        <p>2</p>
-      </div>
-      <div className='frame'>
-        <p>3</p>
-      </div>
-      <div className='frame'>
-        <p>4</p>
-      </div>
-      <div className='frame'>
-        <p>5</p>
-      </div>
-      <div className='frame'>
-        <p>6</p>
-      </div>
-      
+    <div className="port-box-holder">
+      <a class="port-box" href="https://cat-scratch-feev.github.io/Catterday/index.html">
+            <figure>
+                <img src="..\images\cat-scratch-feev.github.io_Catterday_index.html (1).png" alt="pink placeholder"></img>
+                <p>
+                    CATTERDAY
+                </p>
+            </figure>
+        </a>
+        <a class="port-box" href="https://somniary-00225b8202c3.herokuapp.com/landing">
+            <figure>
+                <img src="../images/landing.png" alt="pink placeholder"></img>
+                <p>
+                    SOMNIARY
+                </p>
+            </figure>
+        </a>
+        <a class="port-box" href="#">
+            <figure>
+                <img src="../images/placeholder.png" alt="pink placeholder"></img>
+                <p>
+                    Project
+                </p>
+            </figure>
+        </a>
+        <a class="port-box" href="#">
+            <figure>
+                <img src="../images/placeholder.png" alt="pink placeholder"></img>
+                <p>
+                    Project
+                </p>
+            </figure>
+        </a>
+        <a class="port-box" href="#">
+            <figure>
+                <img src="../images/placeholder.png" alt="pink placeholder"></img>
+                <p>
+                    Project
+                </p>
+            </figure>
+        </a>
+        <a class="port-box" href="#">
+            <figure>
+                <img src="../images/placeholder.png" alt="pink placeholder"></img>
+                <p>
+                    Project
+                </p>
+            </figure>
+        </a>
     </div>
   );
 }
