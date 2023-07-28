@@ -3,8 +3,8 @@ import data from '../data.js'
 const { projects, pages } = data;
 function Contact() {
   return (
-    <div>
-      <h1>This is the Contact</h1>
+    <div className='contact-form-holder'>
+      <h2>This is the Contact</h2>
     </div>
   );
 }
