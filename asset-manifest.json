@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-xyrilla/static/css/main.04c57aff.css",
+    "main.js": "/react-portfolio-xyrilla/static/js/main.0ed0edd0.js",
+    "static/media/placeholder.png": "/react-portfolio-xyrilla/static/media/placeholder.a2b349a889a0bdd2d17d.png",
+    "index.html": "/react-portfolio-xyrilla/index.html",
+    "main.04c57aff.css.map": "/react-portfolio-xyrilla/static/css/main.04c57aff.css.map",
+    "main.0ed0edd0.js.map": "/react-portfolio-xyrilla/static/js/main.0ed0edd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04c57aff.css",
+    "static/js/main.0ed0edd0.js"
+  ]
+}
