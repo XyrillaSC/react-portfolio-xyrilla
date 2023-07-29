@@ -9,13 +9,29 @@ import './styles/App.css'
 
 
 function App() {
+  const [page, setPage] = useState(<About />);
+
+  const handleAboutClick = () => {
+    setPage(<About />);
+  };
+
+  const handleGalleryClick = () => {
+    setPage(<Gallery />);
+  };
+
+  const handleContactClick = () => {
+    setPage(<Contact />);
+  };
+
   return (
     <div>
       <Header />
-      <Navbar />
-      <About />
-      <Gallery />
-      <Contact />
+      <Navbar
+        onAboutClick={handleAboutClick}
+        onGalleryClick={handleGalleryClick}
+        onContactClick={handleContactClick}
+      />
+      {page}
       <Footer />
     </div>
   );

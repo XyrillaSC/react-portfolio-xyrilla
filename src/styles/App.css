@@ -9,6 +9,7 @@
     padding: 0px;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
 body {
     background-image: url("../images/placeholder.png");
@@ -38,14 +39,20 @@ footer {
     border-top: 10px solid var(--main-border-color);
 }
 h2 {
-    font-size: 35px;
+    font-size: 40px;
     background-color:var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
 }
-footer h3 {
-    align-self: center;
+footer a {
+    color: black;
+    background-color:var(--sec-bg-color);
+    border: 5px solid var(--main-border-color);
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    min-width: 155px;
 }
 .links-holder{
     display: flex;
@@ -54,7 +61,6 @@ footer h3 {
     
 }
 .links-holder p {
-    font-size: 20px;
     background-color:var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
@@ -77,23 +83,44 @@ nav {
     background-color: var(--main-bg-color);
 
 }
-nav p {
-    font-size: 20px;
+nav a {
+    color: black;
     background-color:var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
     margin: 25px;
-    min-width: 115px;
+    min-width: 155px;
 }
 .about {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     background-color: var(--main-bg-color);
-    border-bottom: 10px solid var(--main-border-color);
+    padding: 20px;
+}
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 33%;
+}
+
+.about img {
+    background-image: url("../images/placeholder.png");
+    background-size: cover;
+    background-color: var(--sec-bg-color);
+    border: 5px solid var(--main-border-color);
+    max-width: 500px;
     padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.abo-textbox{
+    width: 75%;
+    padding: 20px;
 }
 
 .contact-form-holder {
@@ -101,15 +128,45 @@ nav p {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-bg-color);
+    background-color: var(--sec-bg-color);
     border-top: 10px solid var(--main-border-color);
     padding: 10px;
 }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 5px solid var(--main-border-color);
+    border-radius: 4px;
+    background-color: var(--main-bg-color);
+  }
+  .submit {
+    background-image: url("../images/placeholder.png");
+    background-size: cover;
+    background-color: var(--main-bg-color);
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
 
 .port-box-holder {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    border-top: 10px solid var(--main-border-color);
 }
 
 .port-box {
@@ -121,7 +178,7 @@ nav p {
     padding: 10px;
 }
 
-img {
+figure img {
     height: 100%;
     width: 100%;
     object-fit: cover;
