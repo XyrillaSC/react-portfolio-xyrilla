@@ -7,7 +7,6 @@ import Contact from './components/Contact-Form';
 import Footer from './components/Footer';
 import './styles/App.css'
 
-
 function App() {
   const [page, setPage] = useState(<About />);
 

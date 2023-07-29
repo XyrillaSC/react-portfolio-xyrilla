@@ -1,14 +1,12 @@
 import React from 'react';
-import data from '../data.js'
-const { projects, pages } = data;
 function Footer() {
   return (
     <footer className="footer">
 
       <div className='links-holder'>
-        <a>Github</a>
-        <a>Linkedin</a>
-        <a>Twitter</a>
+        <a href='https://github.com/XyrillaSC'>Github</a>
+        <a href='https://www.linkedin.com/in/skylar-kramer-7a0ba3273/'>Linkedin</a>
+        <a href='#'>Twitter</a>
       </div>
     </footer>
   );

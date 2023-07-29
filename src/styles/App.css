@@ -1,8 +1,9 @@
 :root {
     --main-bg-color: rgb(250, 224, 228);
-    --sec-bg-color:  rgb(255, 205, 213);
+    --sec-bg-color: rgb(255, 205, 213);
     --main-border-color: rgb(255, 185, 185);
 }
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -11,11 +12,13 @@
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
 }
+
 body {
     background-image: url("../images/placeholder.png");
     background-size: cover;
     background-color: var(--sec-bg-color);
 }
+
 header {
     background-image: url("../images/placeholder.png");
     background-size: cover;
@@ -27,55 +30,64 @@ header {
     align-items: center;
     border-bottom: 10px solid var(--main-border-color);
 }
+
 footer {
     background-image: url("../images/placeholder.png");
     background-size: cover;
     background-color: var(--sec-bg-color);
-    height: fit-content;
+    min-height: fit-content;
     display: flex;
-    gap: 30px;
     flex-flow: column;
     justify-content: space-around;
     border-top: 10px solid var(--main-border-color);
 }
+
+a {
+    cursor: crosshair;
+}
+
 h2 {
     font-size: 40px;
-    background-color:var(--sec-bg-color);
+    background-color: var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
 }
+
 footer a {
     color: black;
-    background-color:var(--sec-bg-color);
+    background-color: var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
     margin: 25px;
     min-width: 155px;
 }
-.links-holder{
+
+.links-holder {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
+
 }
+
 .links-holder p {
-    background-color:var(--sec-bg-color);
+    background-color: var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
     margin: 25px;
     min-width: 115px;
 }
+
 .name-plate {
-    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 50px;
-    background-color:var(--main-bg-color);
+    background-color: var(--main-bg-color);
     border: 10px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
 }
+
 nav {
     display: flex;
     flex-flow: row wrap;
@@ -83,15 +95,17 @@ nav {
     background-color: var(--main-bg-color);
 
 }
+
 nav a {
     color: black;
-    background-color:var(--sec-bg-color);
+    background-color: var(--sec-bg-color);
     border: 5px solid var(--main-border-color);
     text-align: center;
     padding: 10px;
     margin: 25px;
     min-width: 155px;
 }
+
 .about {
     display: flex;
     flex-flow: row;
@@ -100,6 +114,7 @@ nav a {
     background-color: var(--main-bg-color);
     padding: 20px;
 }
+
 .sidebar {
     display: flex;
     justify-content: center;
@@ -118,7 +133,8 @@ nav a {
     margin: 10px;
     width: 100%;
 }
-.abo-textbox{
+
+.abo-textbox {
     width: 75%;
     padding: 20px;
 }
@@ -132,35 +148,38 @@ nav a {
     border-top: 10px solid var(--main-border-color);
     padding: 10px;
 }
-  
-  .form-group {
+
+.form-group {
     margin-bottom: 15px;
-  }
-  
-  label {
+}
+
+label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-  }
-  
-  input, textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 8px;
     font-size: 16px;
     border: 5px solid var(--main-border-color);
     border-radius: 4px;
     background-color: var(--main-bg-color);
-  }
-  .submit {
+}
+
+.submit {
     background-image: url("../images/placeholder.png");
     background-size: cover;
     background-color: var(--main-bg-color);
-  }
-  .error {
+}
+
+.error {
     color: red;
     font-size: 14px;
     margin-top: 5px;
-  }
+}
 
 .port-box-holder {
     display: flex;
@@ -184,8 +203,11 @@ figure img {
     object-fit: cover;
     border: 5px solid var(--main-border-color);
 }
+
 figure p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: black;
+    font-weight: bold;
+    font-size: 40px;
 }
