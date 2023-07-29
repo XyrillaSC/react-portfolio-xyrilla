@@ -1,9 +1,10 @@
 import React from 'react';
+import screen from "../images/screen.png"
 function About() {
   return (
     <div className='about'>
       <div className='sidebar'>
-        <img src="../images/screen.png" alt=""></img>
+        <img src={screen} alt="little green screen guy"></img>
         <h2>Hi there!</h2>
       </div>
       <div className="abo-textbox">
