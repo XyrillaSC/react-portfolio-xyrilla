@@ -8,7 +8,7 @@ There is much more to add, but this can stand as a leaping pad to continue to bu
 
 ## Screenshot
 
-![screenshot of deployed website](![xyrillasc github io_react-portfolio-xyrilla_](https://github.com/XyrillaSC/react-portfolio-xyrilla/assets/111295666/dbf3d711-3313-469e-8120-42d379cfb7c3)
+![xyrillasc github io_react-portfolio-xyrilla_](https://github.com/XyrillaSC/react-portfolio-xyrilla/assets/111295666/dbf3d711-3313-469e-8120-42d379cfb7c3)
 )
 
 ## Link to Deployed Page
