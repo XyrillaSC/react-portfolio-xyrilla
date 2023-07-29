@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/react-portfolio-xyrilla/static/css/main.04c57aff.css",
-    "main.js": "/react-portfolio-xyrilla/static/js/main.0ed0edd0.js",
+    "main.js": "/react-portfolio-xyrilla/static/js/main.b616a258.js",
+    "static/media/landing.png": "/react-portfolio-xyrilla/static/media/landing.3c510a8cca03a69ad1b2.png",
+    "static/media/cat-scratch-feev.github.io_Catterday_index.html (1).png": "/react-portfolio-xyrilla/static/media/cat-scratch-feev.github.io_Catterday_index.html (1).9c6ae445e9f862f6e087.png",
+    "static/media/weather.png": "/react-portfolio-xyrilla/static/media/weather.d2e1589a180314337fe8.png",
     "static/media/placeholder.png": "/react-portfolio-xyrilla/static/media/placeholder.a2b349a889a0bdd2d17d.png",
+    "static/media/dayplan.png": "/react-portfolio-xyrilla/static/media/dayplan.31edd6d0206d36cd579b.png",
     "index.html": "/react-portfolio-xyrilla/index.html",
     "main.04c57aff.css.map": "/react-portfolio-xyrilla/static/css/main.04c57aff.css.map",
-    "main.0ed0edd0.js.map": "/react-portfolio-xyrilla/static/js/main.0ed0edd0.js.map"
+    "main.b616a258.js.map": "/react-portfolio-xyrilla/static/js/main.b616a258.js.map"
   },
   "entrypoints": [
     "static/css/main.04c57aff.css",
-    "static/js/main.0ed0edd0.js"
+    "static/js/main.b616a258.js"
   ]
 }
